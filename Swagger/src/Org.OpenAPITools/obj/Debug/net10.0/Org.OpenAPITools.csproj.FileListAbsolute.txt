@@ -1,0 +1,12 @@
+C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Swagger\src\Org.OpenAPITools\bin\Debug\net10.0\Org.OpenAPITools.xml
+C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Swagger\src\Org.OpenAPITools\bin\Debug\net10.0\Org.OpenAPITools.deps.json
+C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Swagger\src\Org.OpenAPITools\bin\Debug\net10.0\Org.OpenAPITools.dll
+C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Swagger\src\Org.OpenAPITools\bin\Debug\net10.0\Org.OpenAPITools.pdb
+C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Swagger\src\Org.OpenAPITools\obj\Debug\net10.0\Org.OpenAPITools.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Swagger\src\Org.OpenAPITools\obj\Debug\net10.0\Org.OpenAPITools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Swagger\src\Org.OpenAPITools\obj\Debug\net10.0\Org.OpenAPITools.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Swagger\src\Org.OpenAPITools\obj\Debug\net10.0\Org.OpenAPITools.sourcelink.json
+C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Swagger\src\Org.OpenAPITools\obj\Debug\net10.0\Org.OpenAPITools.dll
+C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Swagger\src\Org.OpenAPITools\obj\Debug\net10.0\refint\Org.OpenAPITools.dll
+C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Swagger\src\Org.OpenAPITools\obj\Debug\net10.0\Org.OpenAPITools.pdb
+C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Swagger\src\Org.OpenAPITools\obj\Debug\net10.0\ref\Org.OpenAPITools.dll
