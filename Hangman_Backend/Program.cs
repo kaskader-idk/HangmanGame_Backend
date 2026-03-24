@@ -65,6 +65,7 @@ app.UseAuthorization();
 #endregion
 
 app.Map("/", () => Results.Redirect("/swagger"));
+app.MapGet("/words", (HangmanDBContext db) => db.HangmanWoerters.Select(x => new WordDTO().CopyFrom(x)));
 app.MapDbTests();
 
 

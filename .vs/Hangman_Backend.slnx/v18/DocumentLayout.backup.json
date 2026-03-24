@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{55BD3E27-102B-CE66-545E-F48DCFB21926}|Hangman_Backend\\Hangman_Backend.csproj|solutionrelative:hangman_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF54902F-0BD4-8D4C-DC33-03AEF214D4BD}|Hangman_BackendWpf\\Hangman_BackendWpf.csproj|c:\\users\\user\\documents\\schule\\cloud_computing\\hangman_online_v2\\hangmangame_backend\\hangman_backendwpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF54902F-0BD4-8D4C-DC33-03AEF214D4BD}|Hangman_BackendWpf\\Hangman_BackendWpf.csproj|solutionrelative:hangman_backendwpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55BD3E27-102B-CE66-545E-F48DCFB21926}|Hangman_Backend\\Hangman_Backend.csproj|c:\\users\\user\\documents\\schule\\cloud_computing\\hangman_online_v2\\hangmangame_backend\\hangman_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{55BD3E27-102B-CE66-545E-F48DCFB21926}|Hangman_Backend\\Hangman_Backend.csproj|solutionrelative:hangman_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{968804D8-D14C-966C-7F05-AF2B750169E8}|HangmanDBDb\\HangmanDBDb.csproj|c:\\users\\user\\documents\\schule\\cloud_computing\\hangman_online_v2\\hangmangame_backend\\hangmandbdb\\hangmanwoerter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968804D8-D14C-966C-7F05-AF2B750169E8}|HangmanDBDb\\HangmanDBDb.csproj|solutionrelative:hangmandbdb\\hangmanwoerter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55BD3E27-102B-CE66-545E-F48DCFB21926}|Hangman_Backend\\Hangman_Backend.csproj|c:\\users\\user\\documents\\schule\\cloud_computing\\hangman_online_v2\\hangmangame_backend\\hangman_backend\\maps\\dbtestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55BD3E27-102B-CE66-545E-F48DCFB21926}|Hangman_Backend\\Hangman_Backend.csproj|solutionrelative:hangman_backend\\maps\\dbtestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55BD3E27-102B-CE66-545E-F48DCFB21926}|Hangman_Backend\\Hangman_Backend.csproj|c:\\users\\user\\documents\\schule\\cloud_computing\\hangman_online_v2\\hangmangame_backend\\hangman_backend\\_requests.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{55BD3E27-102B-CE66-545E-F48DCFB21926}|Hangman_Backend\\Hangman_Backend.csproj|solutionrelative:hangman_backend\\_requests.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,15 +42,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DbTestApi.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Hangman_Backend\\Maps\\DbTestApi.cs",
-              "RelativeDocumentMoniker": "Hangman_Backend\\Maps\\DbTestApi.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Hangman_Backend\\Maps\\DbTestApi.cs",
-              "RelativeToolTip": "Hangman_Backend\\Maps\\DbTestApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T11:14:46.383Z"
+              "DocumentIndex": 2,
+              "Title": "_requests.http",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Hangman_Backend\\_requests.http",
+              "RelativeDocumentMoniker": "Hangman_Backend\\_requests.http",
+              "ToolTip": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Hangman_Backend\\_requests.http",
+              "RelativeToolTip": "Hangman_Backend\\_requests.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-24T12:23:24.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Hangman_Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "Hangman_Backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Hangman_Backend\\appsettings.json",
+              "RelativeToolTip": "Hangman_Backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T11:26:03.039Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -64,35 +74,9 @@
               "RelativeDocumentMoniker": "Hangman_Backend\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Hangman_Backend\\Program.cs",
               "RelativeToolTip": "Hangman_Backend\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAD8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T11:14:38.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HangmanWoerter.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\HangmanDBDb\\HangmanWoerter.cs",
-              "RelativeDocumentMoniker": "HangmanDBDb\\HangmanWoerter.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\HangmanDBDb\\HangmanWoerter.cs",
-              "RelativeToolTip": "HangmanDBDb\\HangmanWoerter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T11:14:26.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Hangman_BackendWpf\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Hangman_BackendWpf\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Hangman_BackendWpf\\AssemblyInfo.cs",
-              "RelativeToolTip": "Hangman_BackendWpf\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T11:14:19.961Z",
+              "WhenOpened": "2026-03-24T11:25:27.619Z",
               "EditorCaption": ""
             }
           ]
