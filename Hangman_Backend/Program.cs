@@ -18,6 +18,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 #region -------------------------------------------- ConfigureServices
 
+
 builder.Services
   .AddEndpointsApiExplorer()
   .AddAuthorization()
@@ -64,10 +65,17 @@ app.UseCors(corsKey);
 app.UseAuthorization();
 #endregion
 
+
 app.Map("/", () => Results.Redirect("/swagger"));
 app.MapGet("/words", (HangmanDBContext db) => db.HangmanWoerters.Select(x => new WordDTO().CopyFrom(x)));
 app.MapDbTests();
 
 
 Console.WriteLine($"Ready for clients at {DateTime.Now:HH:mm:ss} ...");
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+
 app.Run();

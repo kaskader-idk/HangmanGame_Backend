@@ -217,3 +217,4 @@ C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Bac
 C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Hangman_Backend\obj\Debug\net10.0\Hangman_Backend.pdb
 C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Hangman_Backend\obj\Debug\net10.0\Hangman_Backend.genruntimeconfig.cache
 C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Hangman_Backend\obj\Debug\net10.0\ref\Hangman_Backend.dll
+C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Hangman_Backend\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
