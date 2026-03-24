@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hangman_BackendWpf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ca959d9a45b98455f92aae5ff0d6370ba43a7f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hangman_BackendWpf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hangman_BackendWpf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

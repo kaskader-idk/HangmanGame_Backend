@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\Hangman_Backend\Hangman_BackendWpf\obj\Debug\net10.0-windows\
+C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Hangman_BackendWpf\obj\Debug\net10.0-windows\
 Hangman_BackendWpf
 none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\Hangman_Backend\Hangman_BackendWpf\App.xaml
+C:\Users\User\Documents\Schule\Cloud_Computing\Hangman_Online_V2\HangmanGame_Backend\Hangman_BackendWpf\App.xaml
 11407045341
 
 7-197285080
-2121399549507
+212-604294185
 MainWindow.xaml;
 
-True
+False
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\Hangman_Backend\\Hangman_BackendWpf\\Hangman_BackendWpf.csproj": {}
+    "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Hangman_BackendWpf\\Hangman_BackendWpf.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\Hangman_Backend\\Hangman_BackendWpf\\Hangman_BackendWpf.csproj": {
+    "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Hangman_BackendWpf\\Hangman_BackendWpf.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\Hangman_Backend\\Hangman_BackendWpf\\Hangman_BackendWpf.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Hangman_BackendWpf\\Hangman_BackendWpf.csproj",
         "projectName": "Hangman_BackendWpf",
-        "projectPath": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\Hangman_Backend\\Hangman_BackendWpf\\Hangman_BackendWpf.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Hangman_BackendWpf\\Hangman_BackendWpf.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\Hangman_Backend\\Hangman_BackendWpf\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Hangman_BackendWpf\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net10.0-windows7.0": {
             "targetAlias": "net10.0-windows",
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\Hangman_Backend\\Swagger\\src\\Org.OpenAPITools\\Org.OpenAPITools.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\Hangman_Backend\\Swagger\\src\\Org.OpenAPITools\\Org.OpenAPITools.csproj"
+              "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Swagger\\src\\Org.OpenAPITools\\Org.OpenAPITools.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Swagger\\src\\Org.OpenAPITools\\Org.OpenAPITools.csproj"
               }
             }
           }
@@ -366,14 +366,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\Hangman_Backend\\Swagger\\src\\Org.OpenAPITools\\Org.OpenAPITools.csproj": {
+    "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Swagger\\src\\Org.OpenAPITools\\Org.OpenAPITools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\Hangman_Backend\\Swagger\\src\\Org.OpenAPITools\\Org.OpenAPITools.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Swagger\\src\\Org.OpenAPITools\\Org.OpenAPITools.csproj",
         "projectName": "Org.OpenAPITools",
-        "projectPath": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\Hangman_Backend\\Swagger\\src\\Org.OpenAPITools\\Org.OpenAPITools.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Swagger\\src\\Org.OpenAPITools\\Org.OpenAPITools.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\Hangman_Backend\\Swagger\\src\\Org.OpenAPITools\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\Swagger\\src\\Org.OpenAPITools\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
