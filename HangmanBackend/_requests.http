@@ -2,8 +2,58 @@
 ##################################################
 
 
+################################################## addword
+POST {{baseUrl}}/addword?wort=abc&beschreibung=abc&schwierigkeit=abc
+#####
+
 ################################################## dbtest
-GET {{baseUrl}}/dbtest/HangmanDB
+GET {{baseUrl}}/dbtest/Words
+#####
+
+################################################## deleteword
+DELETE {{baseUrl}}/deleteword?wort=abc
+#####
+
+################################################## easy
+GET {{baseUrl}}/easy
+#####
+
+################################################## fix-umlauts
+PUT {{baseUrl}}/fix-umlauts
+#####
+
+################################################## hard
+GET {{baseUrl}}/hard
+#####
+
+################################################## medium
+GET {{baseUrl}}/medium
+#####
+
+################################################## updateDescription
+PUT {{baseUrl}}/updateDescription
+Content-type: application/json
+
+{
+   "wort": "abc",
+   "schwierigkeit": "abc",
+   "beschreibung": "abc"
+}
+#####
+
+################################################## updateword
+PUT {{baseUrl}}/updateword?wort=abc&beschreibung=abc&schwierigkeit=abc
+#####
+
+################################################## word
+POST {{baseUrl}}/word
+Content-type: application/json
+
+{
+   "wort": "abc",
+   "schwierigkeit": "abc",
+   "beschreibung": "abc"
+}
 #####
 
 ################################################## words

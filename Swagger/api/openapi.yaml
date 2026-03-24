@@ -1,12 +1,23 @@
 openapi: 3.0.4
 info:
-  title: HangmanBackend
+  title: Backend
   version: v1
 servers:
 - url: /
 tags:
 - name: HangmanBackend
 paths:
+  /dbtest/HangmanDB:
+    get:
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/OkMessage"
+          description: OK
+      tags:
+      - HangmanBackend
   /words:
     get:
       responses:
@@ -20,14 +31,142 @@ paths:
           description: OK
       tags:
       - HangmanBackend
-  /dbtest/HangmanDB:
+  /word:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WordDTO"
+        required: true
+      responses:
+        "200":
+          description: OK
+      tags:
+      - HangmanBackend
+  /easy:
     get:
       responses:
         "200":
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/OkMessage"
+                $ref: "#/components/schemas/WordDTO"
+          description: OK
+      tags:
+      - HangmanBackend
+  /medium:
+    get:
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WordDTO"
+          description: OK
+      tags:
+      - HangmanBackend
+  /hard:
+    get:
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WordDTO"
+          description: OK
+      tags:
+      - HangmanBackend
+  /updateDescription:
+    put:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WordDTO"
+        required: true
+      responses:
+        "200":
+          description: OK
+      tags:
+      - HangmanBackend
+  /fix-umlauts:
+    put:
+      responses:
+        "200":
+          description: OK
+      tags:
+      - HangmanBackend
+  /addword:
+    post:
+      parameters:
+      - explode: true
+        in: query
+        name: wort
+        required: true
+        schema:
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: beschreibung
+        required: true
+        schema:
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: schwierigkeit
+        required: true
+        schema:
+          type: string
+        style: form
+      responses:
+        "200":
+          description: OK
+      tags:
+      - HangmanBackend
+  /updateword:
+    put:
+      parameters:
+      - explode: true
+        in: query
+        name: wort
+        required: true
+        schema:
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: beschreibung
+        required: true
+        schema:
+          type: string
+        style: form
+      - explode: true
+        in: query
+        name: schwierigkeit
+        required: true
+        schema:
+          type: string
+        style: form
+      responses:
+        "200":
+          description: OK
+      tags:
+      - HangmanBackend
+  /deleteword:
+    delete:
+      parameters:
+      - explode: true
+        in: query
+        name: wort
+        required: true
+        schema:
+          type: string
+        style: form
+      responses:
+        "200":
           description: OK
       tags:
       - HangmanBackend
