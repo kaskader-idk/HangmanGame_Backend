@@ -6,7 +6,7 @@ public static class DbTestApi
   {
     routes.MapGet("/dbtest/HangmanDB", (HangmanDBContext db, ILoggerFactory logger) =>
     {
-      int nr = db.HangmanDB.Count();
+      int nr = db.HangmanWoerters.Count();
       logger.Log($"{nr} HangmanDB");
       return new OkMessage { IsOk = true, Nr = nr };
     });

@@ -1,0 +1,65 @@
+openapi: 3.0.4
+info:
+  title: HangmanBackend
+  version: v1
+servers:
+- url: /
+tags:
+- name: HangmanBackend
+paths:
+  /words:
+    get:
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: "#/components/schemas/WordDTO"
+                type: array
+          description: OK
+      tags:
+      - HangmanBackend
+  /dbtest/HangmanDB:
+    get:
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/OkMessage"
+          description: OK
+      tags:
+      - HangmanBackend
+components:
+  schemas:
+    OkMessage:
+      additionalProperties: false
+      example:
+        nr: 0
+        isOk: true
+      properties:
+        isOk:
+          type: boolean
+        nr:
+          format: int32
+          type: integer
+      type: object
+    WordDTO:
+      additionalProperties: false
+      example:
+        wort: wort
+        beschreibung: beschreibung
+        schwierigkeit: schwierigkeit
+      properties:
+        wort:
+          nullable: true
+          type: string
+        schwierigkeit:
+          nullable: true
+          type: string
+        beschreibung:
+          nullable: true
+          type: string
+      type: object
+

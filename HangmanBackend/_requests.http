@@ -1,6 +1,11 @@
-@baseUrl = http://localhost:5000
+@baseUrl = https://hangmanbackend-f2eqd3cvexbgbchg.polandcentral-01.azurewebsites.net
 ##################################################
 
-##################################################
-GET {{baseUrl}}/dbTest/HangmanDB
+
+################################################## dbtest
+GET {{baseUrl}}/dbtest/HangmanDB
+#####
+
+################################################## words
+GET {{baseUrl}}/words
 #####

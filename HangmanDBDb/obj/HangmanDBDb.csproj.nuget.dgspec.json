@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanBackend\\HangmanDBDb\\HangmanDBDb.csproj": {}
+    "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\HangmanDBDb\\HangmanDBDb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanBackend\\HangmanDBDb\\HangmanDBDb.csproj": {
+    "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\HangmanDBDb\\HangmanDBDb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanBackend\\HangmanDBDb\\HangmanDBDb.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\HangmanDBDb\\HangmanDBDb.csproj",
         "projectName": "HangmanDBDb",
-        "projectPath": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanBackend\\HangmanDBDb\\HangmanDBDb.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\HangmanDBDb\\HangmanDBDb.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanBackend\\HangmanDBDb\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Schule\\Cloud_Computing\\Hangman_Online_V2\\HangmanGame_Backend\\HangmanDBDb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
