@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="HangmanDBDb/HangmanDBDb.csproj" />
+  <Project Path="Hangman_Backend/Hangman_Backend.csproj" />
+  <Project Path="Hangman_BackendWpf/Hangman_BackendWpf.csproj" />
+  <Project Path="Swagger/src/Org.OpenAPITools/Org.OpenAPITools.csproj" />
+</Solution>
