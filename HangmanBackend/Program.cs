@@ -71,8 +71,6 @@ app.UseAuthorization();
 app.Map("/", () => Results.Redirect("/swagger"));
 app.MapDbTests();
 
-app.MapGet("/words", (HangmanDBContext db) => db.HangmanWoerters.Select(x => new WordDTO().CopyFrom(x)));
-
 app.MapPost("/word", (HangmanDBContext db, WordDTO word) =>
 {
     var entity = new HangmanWoerter
@@ -113,14 +111,6 @@ app.MapGet("/hard", (HangmanDBContext db) =>
 
     var random = easyWords[Random.Shared.Next(easyWords.Count)];
     return new WordDTO().CopyFrom(random);
-});
-
-app.MapPut("/updateDescription", (HangmanDBContext db, WordDTO word) =>
-{
-    var hangmanWord = db.HangmanWoerters.Single(x => x.Wort == word.Wort);
-    hangmanWord.Beschreibung = word.Beschreibung;
-    //db.Update(hangmanWord);
-    db.SaveChanges();
 });
 
 app.MapPut("/fix-umlauts", (HangmanDBContext db) =>
@@ -167,31 +157,6 @@ app.MapPut("/fix-umlauts", (HangmanDBContext db) =>
         Message = $"{wordsToFix.Count} Wörter korrigiert.",
         FixedWords = wordsToFix.Select(w => new WordDTO().CopyFrom(w))
     });
-});
-
-app.MapPost("/addword", (HangmanDBContext db, string wort, string beschreibung, string schwierigkeit) =>
-{
-    schwierigkeit = schwierigkeit.ToUpper();
-    if (schwierigkeit is not ("LEICHT" or "MITTEL" or "SCHWER"))
-        return Results.BadRequest("Schwierigkeit muss LEICHT, MITTEL oder SCHWER sein.");
-
-    wort = wort.ToUpper()
-        .Replace("Ä", "AE")
-        .Replace("Ö", "OE")
-        .Replace("Ü", "UE")
-        .Replace("ß", "SS");
-
-    var entity = new HangmanWoerter
-    {
-        Wort = wort,
-        Beschreibung = beschreibung,
-        Schwierigkeit = schwierigkeit
-    };
-
-    db.Add(entity);
-    db.SaveChanges();
-
-    return Results.Ok(new WordDTO().CopyFrom(entity));
 });
 
 app.MapPut("/updateword", (HangmanDBContext db, string wort, string beschreibung, string schwierigkeit) =>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HangmanDBDb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da3c68f0f57fa9fbeb6efe33139d552e31937f6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dabc1d129f28fe57970d2093115d639f4238b973")]
 [assembly: System.Reflection.AssemblyProductAttribute("HangmanDBDb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HangmanDBDb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
